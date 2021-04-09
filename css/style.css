@@ -5,8 +5,13 @@ html {
 body {
   margin-bottom: 80px;
 }
+
 .jumbotron {
-  background-color: #d0d0d0;
+  height: 550px;
+  background-image: url(../img/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: -25px -80px;
   text-decoration: none;
   color: inherit;
 }
@@ -18,7 +23,12 @@ body {
 .jumbotron img {
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #808080;
+  border: 5px solid #C0C0C0;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p{
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 hr {
@@ -41,7 +51,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 65px;
   background-color: #333;
   padding-top: 20px;
 }
